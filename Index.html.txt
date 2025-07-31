@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Donna Murray Teeth Whitening</title>
+  <style>
+    /* Color palette */
+    :root {
+      --pink-soft: #f9d5d3;
+      --cream-earth: #f5f1e9;
+      --brown-earth: #6b4c3b;
+      --brown-dark: #3b2f2f;
+      --text-dark: #4b3b2b;
+    }
+    /* Reset */
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    body {
+      background-color: var(--cream-earth);
+      color: var(--brown-dark);
+      line-height: 1.6;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    header {
+      background-color: var(--pink-soft);
+      padding: 1rem 2rem;
+      box-shadow: 0 2px 5px rgba(107, 76, 59, 0.2);
+    }
+    nav {
+      max-width: 900px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-around;
+      font-weight: 600;
+    }
+    nav a {
+      color: var(--brown-dark);
+      text-decoration: none;
+      padding: 0.5rem 1rem;
+      border-radius: 8px;
+      transition: background-color 0.3s ease;
+    }
+    nav a:hover,
+    nav a:focus {
+      background-color: var(--brown-earth);
+      color: var(--cream-earth);
+    }
+    main {
+      flex-grow: 1;
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+      text-align: center;
+    }
+    h1 {
+      font-size: 2.8rem;
+      margin-bottom: 0.5rem;
+      color: var(--brown-earth);
+    }
+    p.lead {
+      font-size: 1.3rem;
+      color: var(--brown-dark);
+      margin-bottom: 2rem;
+    }
+    .btn-primary {
+      display: inline-block;
+      background-color: var(--brown-earth);
+      color: var(--cream-earth);
+      padding: 0.8rem 2rem;
+      border-radius: 25px;
+      font-weight: 600;
+      text-decoration: none;
+      transition: background-color 0.3s ease;
+      box-shadow: 0 4px 8px rgba(107, 76, 59, 0.3);
+    }
+    .btn-primary:hover,
+    .btn-primary:focus {
+      background-color: var(--brown-dark);
+      box-shadow: 0 6px 12px rgba(59, 47, 47, 0.6);
+    }
+    footer {
+      background-color: var(--pink-soft);
+      padding: 1rem 2rem;
+      text-align: center;
+      color: var(--brown-dark);
+      font-size: 0.9rem;
+      box-shadow: 0 -2px 5px rgba(107, 76, 59, 0.2);
+    }
+    ul.services-list {
+      list-style: none;
+      max-width: 500px;
+      margin: 0 auto 3rem auto;
+      padding: 0;
+      text-align: left;
+    }
+    ul.services-list li {
+      background-color: var(--cream-earth);
+      margin: 0.7rem 0;
+      padding: 0.8rem 1rem;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(107, 76, 59, 0.15);
+      font-weight: 600;
+      color: var(--brown-earth);
+      cursor: default;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="index.html" aria-current="page">Home</a>
+      <a href="about.html">About Whitening</a>
+      <a href="services.html">Services</a>
+      <a href="testimonials.html">Testimonials</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Donna Murray Teeth Whitening</h1>
+    <p class="lead">Brighten your smile with professional whitening in Windang. Soft, effective, and safe treatments for a lighter, brighter smile.</p>
+
+    <ul class="services-list" aria-label="Our Services">
+      <li>Triple Whitening Session - $150</li>
+      <li>1.5 Hours per session</li>
+      <li>Located in Windang</li>
+      <li>Appointments Only</li>
+    </ul>
+
+    <a href="contact.html" class="btn-primary" role="button">Book Your Appointment</a>
+  </main>
+
+  <footer>
+    <p>Contact Donna: <a href="tel:0448900419">0448 900 419</a> | <a href="mailto:LighterBrightersmiles@gmail.com">LighterBrightersmiles@gmail.com</a></p>
+    <p>© 2025 Donna Murray Teeth Whitening</p>
+  </footer>
+</body>
+</html>
